@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 16vh;
+  background-color: #111111;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+}
+header div {
+  width: 30vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+header div .firstButton {
+  background-color: #DF0712;
+  height: 5vh;
+  width: 12vw;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 24px;
+  font-weight: 400;
+}
+header div button {
+  width: 12vw;
+  height: 5vh;
+  background-color: #181818;
+  color: white;
+  border: solid 1px #FFFCFC;
+  border-radius: 10px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #181818;
+  height: 76vh;
+}
+
+.firstBox {
+  width: 80vw;
+  height: 22vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.firstBox div h2 {
+  color: white;
+}
+
+.secondBox {
+  height: 50vh;
+  display: flex;
+  justify-content: space-between;
+}
+.secondBox article {
+  width: 20vw;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: baseline;
+}
+.secondBox article img {
+  width: 18vw;
+}
+
+footer {
+  background-color: #111111;
+  color: white;
+  height: 8vh;
+}
+footer section {
+  height: 8vh;
+  width: 46vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */
